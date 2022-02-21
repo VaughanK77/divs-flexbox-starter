@@ -108,6 +108,18 @@ body {
   height: 100%;
 }
 
+h3 { 
+    font-size: 30px;
+    font-family: Verdana, sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+ }
+
+
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
@@ -119,16 +131,21 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
+  background-color: darkolivegreen;
   height: 300px;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
+  overflow-wrap: normal;
+  padding: 5px 5px 5px 5px;
 }
 
-
+.heading-black {
+    color: black;
+    font-size: 2em;
+}
 
 
 /* ==========================================================================
